@@ -48,10 +48,10 @@ How to run the DMCK?
 
 ### Reproduce Note
 `
-sudo apt update
-sudo apt install openjdk-8-jre-headless
-sudo apt install openjdk-8-jdk-headless
-sudo apt-get install ant
+sudo apt update\
+sudo apt install openjdk-8-jre-headless\
+sudo apt install openjdk-8-jdk-headless\
+sudo apt-get install ant\
 sudo apt-get install ivy
 `
 
