@@ -45,8 +45,15 @@ Let's start with compiling the DMCK and the SCM system.
 --------------------
 How to run the DMCK?
 --------------------
-**Reproduce Note**
 
+### Reproduce Note
+`
+sudo apt update
+sudo apt install openjdk-8-jre-headless
+sudo apt install openjdk-8-jdk-headless
+sudo apt-get install ant
+sudo apt-get install ivy
+`
 
 
 1. Go to your working_dir directory and execute the
