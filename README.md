@@ -31,6 +31,14 @@ with the DMCK to reproduce the DC bug in each system:
 ------------------------
 How to compile the code?
 ------------------------
+## Reproduce Note
+```
+sudo apt update
+sudo apt install openjdk-8-jre-headless
+sudo apt install openjdk-8-jdk-headless
+sudo apt-get install ant
+sudo apt-get install ivy
+````
 Let's start with compiling the DMCK and the SCM system.
 
 1. Make sure you have installed the Java-Oracle-8.
@@ -46,14 +54,7 @@ Let's start with compiling the DMCK and the SCM system.
 How to run the DMCK?
 --------------------
 
-### Reproduce Note
-```
-sudo apt update
-sudo apt install openjdk-8-jre-headless
-sudo apt install openjdk-8-jdk-headless
-sudo apt-get install ant
-sudo apt-get install ivy
-````
+
 
 
 1. Go to your working_dir directory and execute the
