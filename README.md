@@ -32,9 +32,9 @@ with the DMCK to reproduce the DC bug in each system:
 How to compile the code?
 ------------------------
 ## Reproduce Note
+### On Ubuntu 16.04
 ```
 sudo apt update
-sudo apt install openjdk-8-jre-headless
 sudo apt install openjdk-8-jdk-headless
 sudo apt-get install ant
 sudo apt-get install ivy
@@ -45,10 +45,10 @@ Let's start with compiling the DMCK and the SCM system.
 2. Copy the target-sys.conf.sample to target-sys.conf 
    in DMCK_dir/scm/ directory
 3. Adjust the path file parameters in the target-sys.conf
-4. Go to DMCK_dir path and execute ./compile scm
+4. Go to DMCK_dir path and execute `./compile scm` (Don't forget chmox +x compile, and run with sudo)
 5. You will find the working_dir location that is specified
    in the target-sys.conf (in default, the working_dir
-   can be found in /tmp/scm directory) is generated there.
+   can be found in */tmp/scm* directory) is generated there.
 
 --------------------
 How to run the DMCK?
